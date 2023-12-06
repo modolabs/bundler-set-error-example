@@ -1,0 +1,39 @@
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+.DS_STORE
+.env
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+/app/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore rspec state
+/spec/examples.txt
+
+# Ignore paperclip test files
+public/spec/*
+
+# Ignore simplecov
+coverage
+
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+/node_modules
