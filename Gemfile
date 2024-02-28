@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'puma', '~> 5.0'
-gem 'rails', '~> 6.1.4'
+gem 'rails', '~> 6.1.7'
 
 gem 'bunny'
 gem 'listen'
